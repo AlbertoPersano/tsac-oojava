@@ -1,0 +1,5 @@
+Cambiare l'array denomination con una serie di oggetti con valuta e tipologia
+inoltre fare in modo che il metodo possa ritornare solo gli oggetti > 1!
+
+
+ci
