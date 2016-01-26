@@ -1,7 +1,6 @@
 package persano.alberto.commercialista;
 
-public class LiberoProff extends Dipendente{
-	
+public class LiberoProff extends Cliente{
 	
 
 	private String piva;

@@ -2,17 +2,19 @@ package persano.alberto.commercialista;
 
 public class StudioComm {
 
-	private Dipendente[] dipendenti;
+	private Cliente[] clienti;
 	
-	public StudioComm (Dipendente[] dipendenti){
-		this.dipendenti = dipendenti;
+	public StudioComm (Cliente[] clienti){
+		this.clienti = clienti;
 	}
-	public Dipendente[] getDipendenti(){
-		return dipendenti;
+	public Cliente[] getClienti(){
+		return clienti;
 	}
 	
 	private LiberoProff[] liberiProff;
 	private Imprenditore[] imprenditori;
+	
+	
 	
 	public LiberoProff[] getLiberiProff() {
 		return liberiProff;
@@ -32,8 +34,8 @@ public class StudioComm {
 	
 	public int totaleParcellePolimorph(){
 		int tot = 0;
-		for (Dipendente d: dipendenti){
-			tot+= d.calcolaParcella();
+		for (Cliente c: clienti){
+			tot+= c.calcolaParcella();
 		}
 		return tot;
 	}

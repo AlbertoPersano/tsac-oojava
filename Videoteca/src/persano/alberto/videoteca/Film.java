@@ -7,7 +7,7 @@ public class Film {
 	private String data;
 	private String mainAttori;
 	private Supporto[] supporti;
-	private Supporto supporto;
+	
 	
 	
 	
@@ -42,11 +42,19 @@ public class Film {
 		this.mainAttori = mainAttori;
 	}
 	
-	
+	public int calcolaParcellaPolimorph(){
+		int tot = 0;
+		for (Supporto s:supporti ){
+			tot += s.costoNoleggio();
+		}
+		return tot;
 	}
+	
+	
+}
 	
 	
 	
 	
 
-}
+

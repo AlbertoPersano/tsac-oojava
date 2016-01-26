@@ -11,7 +11,7 @@ public class VHS extends Supporto{
 		}
 		else{
 			int conteggio = 1;
-			for( int i = 0; i < giorniPrenotazione; i++){
+			for( int i = 0; i < this.getGiorniPrenotazione(); i++){
 				conteggio += 2;
 			}
 			return conteggio;

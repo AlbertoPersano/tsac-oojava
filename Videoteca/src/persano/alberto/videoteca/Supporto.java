@@ -2,13 +2,6 @@ package persano.alberto.videoteca;
 
 public class Supporto {
 	private int giorniPrenotazione;
-	
-	
-	
-	
-
-	
-
 
 	public int getGiorniPrenotazione() {
 		return giorniPrenotazione;
@@ -18,6 +11,9 @@ public class Supporto {
 		this.giorniPrenotazione = giorniPrenotazione;
 	}
 	
+	public int costoNoleggio(){
+		return 0; //AHAH sto prendendo in giro java sono troppo powa
+	}
 
 	
 	

@@ -24,10 +24,8 @@ Il programma deve permettere di visualizzare a Console l'incasso totale.
 
 package persano.alberto.commercialista;
 
-public class Imprenditore extends Dipendente{
+public class Imprenditore extends Cliente{
 		
-	
-
 	private String piva;
 	private String ragSoc;
 	private int numFattAnnuale;

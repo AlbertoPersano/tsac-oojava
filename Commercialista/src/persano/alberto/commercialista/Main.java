@@ -31,7 +31,7 @@ public class Main {
 			lib1.setPiva("randomizing");
 			
 			
-			StudioComm gentili = new StudioComm(new Dipendente[] {dip1, dip2, imp1, lib1});
+			StudioComm gentili = new StudioComm(new Cliente[] {dip1, dip2, imp1, lib1});
 			
 			System.out.println(gentili.totaleParcellePolimorph());
 			
