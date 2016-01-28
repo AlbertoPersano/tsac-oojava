@@ -1,7 +1,21 @@
 package persano.alberto.videoteca;
 
 public class Supporto {
+	private String tipo;
 	private int giorniPrenotazione;
+	
+	
+
+	
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	
 
 	public int getGiorniPrenotazione() {
 		return giorniPrenotazione;
