@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import persano.alberto.commercialista.Cliente;
 import persano.alberto.commercialista.Dipendente;
 import persano.alberto.commercialista.Imprenditore;
 import persano.alberto.commercialista.LiberoProff;
@@ -12,7 +13,7 @@ import persano.alberto.commercialista.StudioComm;
 public class StudioCommTest {
 
 	@Test
-	public void StudioCommtest() {
+	public void TesttotaleParcellePolimorph(){
 		
 		
 		LiberoProff tirindelli = new LiberoProff();
@@ -24,10 +25,11 @@ public class StudioCommTest {
 
 		Dipendente gino = new Dipendente();
 		
+		StudioComm gentili = new StudioComm(new Cliente[] {tirindelli, menis, gino});
+		
+		assertEquals(611, gentili.totaleParcellePolimorph());
 		
 		
-		StudioComm gentili = new StudioComm();
-		gentili.setImprenditori;
 		
 		
 	}

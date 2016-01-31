@@ -1,4 +1,4 @@
 Diffetti da correggere ASAP:
 
-- JUnit non ancora implementato.
-- Harbour non funziona per qualche cavolata con le funzioni statiche.
+- JUnit non ancora implementato su Harbour (esercizio non funzionante)
+- JUnit non ancora implementato su Videoteca (esercizio non funzionante)

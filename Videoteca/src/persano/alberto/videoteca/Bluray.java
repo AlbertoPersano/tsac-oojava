@@ -3,18 +3,17 @@ package persano.alberto.videoteca;
 public class Bluray extends Supporto {
 
 	
-	public int costoNoleggio(){
-		int conteggio = 1;
-		if (this.getGiorniPrenotazione() == 1){
-			return 1;
-			
+	/*public int costoNoleggio(){
+		int conteggio = 0;
+		int giorni = this.getGiorniPrenotazione();
+		
+		if (giorni == 0){
+			return 0;
 		}
 		else{
-			for (int i = 0; i < this.getGiorniPrenotazione(); i ++){
-				conteggio =+ (conteggio/100)*10;
-			
-			}
-			return conteggio;
+			return 
 		}
 	}
+	TODO RICORSIVA ZzZzZZZzzZzZ 
+	*/
 }
