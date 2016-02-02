@@ -26,7 +26,7 @@ public class Main {
 			LiberoProff lib1 = new LiberoProff();
 			lib1.setCf("cose");
 			lib1.setCognome("uncognome");
-			lib1.setNome("cazzo");
+			lib1.setNome("razzo");
 			lib1.setNumFattAnnuale(20);
 			lib1.setPiva("randomizing");
 			

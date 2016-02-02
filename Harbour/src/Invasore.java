@@ -1,7 +1,7 @@
 //Tutte le categorie di invasori sono caratterizzati da un codice identificativo, 
 //da un modello e da un indice P indicante la potenza di fuoco.
 
-public class Invasore {
+public abstract class Invasore {
 	private int id;
 	private String modello;
 	private int p;
@@ -26,8 +26,8 @@ public class Invasore {
 		this.p = p;
 	}
 
-	public void calcoloP(){
+	public abstract void calcoloP();
 		
-	}
+	
 	
 }
