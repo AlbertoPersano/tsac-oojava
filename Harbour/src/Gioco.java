@@ -33,6 +33,7 @@ public class Gioco {
 	}
 	
 	public String stillAlive(){
+		
 		String alive;
 		this.calcolaDmg();
 		if (this.porto.getMq() > 0){
@@ -44,6 +45,8 @@ public class Gioco {
 		}
 		
 	}
+	
+	
 	
 	
 }
