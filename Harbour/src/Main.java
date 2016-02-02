@@ -5,23 +5,23 @@ public class Main {
 		
 		
 		Sottomarino OttobreRosso = new Sottomarino();
-		OttobreRosso.setArmamenti(3);
-		OttobreRosso.setTonn(10);
-		OttobreRosso.setModello("Rusky cyka");
+		OttobreRosso.setArmamenti(100);
+		OttobreRosso.setTonn(1);
+		OttobreRosso.setModello("Rusky");
 		OttobreRosso.setId(1);
 		
 		
 		Aereo BaroneRosso = new Aereo();
-		BaroneRosso.setArmamentiA(2);
+		BaroneRosso.setArmamentiA(1);
 		BaroneRosso.setArmamentiB(1);
-		BaroneRosso.setId(2);
+		BaroneRosso.setId(1);
 		BaroneRosso.setModello("Aereo molto Rosso");
 		
 		Aereo PorcoRosso = new Aereo();
 		PorcoRosso.setArmamentiA(1);
 		PorcoRosso.setArmamentiB(1);
 		PorcoRosso.setModello("Oink");
-		PorcoRosso.setId(3);
+		PorcoRosso.setId(1);
 		
 		PortoNavale barkbark = new PortoNavale();
 		barkbark.setMq(100);
